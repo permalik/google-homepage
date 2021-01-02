@@ -3,7 +3,7 @@
 }
 
 strong {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 body {
@@ -13,6 +13,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 a.nav-link {
@@ -49,36 +53,57 @@ a.footer-link {
 }
 
 #user-nav {
-    float: right;
-    display: flex;
-    margin: 1.5rem .75rem 0 0;
+  float: right;
+  display: flex;
+  margin: 1.5rem 0.75rem 0 0;
 }
 
 #gmail {
-    margin-right: 0.9375rem;
+  margin-right: 0.9375rem;
 }
 
 #images {
-    margin-right: 1.3rem;
+  margin-right: 1.3rem;
 }
 
 #sign-in {
-    margin-left: 1.3rem;
+  margin-left: 1.3rem;
+}
+/*position top nav*/
+
+/*style top nav links*/
+a.nav-link:hover {
+    opacity: 80%;
+}
+/*style top nav links*/
+
+/*style waffle icon*/
+#waffle {
+    opacity: 75%;
 }
 
-/*position top nav*/
+#waffle:hover {
+    opacity: 100%;
+}
+/*style waffle icon*/
 
 /*style 'sign in button'*/
 #sign-in {
-    background: #4285F4;
-    color: #fff;
-    padding: .47rem .65rem;
-    border-radius: 2px;
+  background: #4285f4;
+  color: #fff;
+  padding: 0.47rem 0.65rem;
+  border-radius: 2px;
+  cursor: default;
+}
+
+#sign-in:hover {
+    text-decoration: none;
+    opacity: 100%;
 }
 /*style 'sign in button'*/
 
 @media only screen and (max-width: 380px) {
-    .nav-bar {
-        display: none;
-    }
+  .nav-bar {
+    display: none;
+  }
 }
