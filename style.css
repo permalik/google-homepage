@@ -27,15 +27,6 @@ a.nav-link:hover {
   opacity: 80%;
 }
 
-a.footer-link {
-  color: #505050;
-}
-
-.search-buttons {
-  font-size: 0.875rem;
-  color: #434343;
-}
-
 /*position top nav*/
 .nav-bar {
   position: relative;
@@ -105,9 +96,9 @@ a.footer-link {
 #logo-container {
   display: inline-block;
   text-align: center;
-  line-height: 8.5rem;
+  line-height: 10rem;
   width: 100%;
-  height: 12rem;
+  height: 13rem;
 }
 
 #kooler {
@@ -122,7 +113,7 @@ a.footer-link {
 #search-box {
   position: relative;
   width: 100%;
-  height: 10rem;
+  height: 4rem;
 }
 
 #centered-form {
@@ -149,7 +140,7 @@ a.footer-link {
   position: absolute;
   border: 0;
   outline: 0;
-  top: 1rem;
+  top: 1.1rem;
   left: 1.3rem;
   z-index: 1;
 }
@@ -170,6 +161,50 @@ a.footer-link {
   outline: none;
 }
 /*search field*/
+
+/*search | lucky buttons*/
+#button-container {
+  display: inline-block;
+  text-align: center;
+  line-height: 4rem;
+  height: 11.5rem;
+  width: 100%;
+  margin: auto;
+}
+
+.search-button {
+  background-color: #f7f7f7;
+  color: #505050;
+  font-size: 0.875rem;
+  box-sizing: border-box;
+  border: 1.5px solid transparent;
+  border-radius: 4px;
+  padding: 0.6rem 1rem;
+}
+
+.search-button:hover {
+  border: 1.5px solid #d5d5d5;
+  box-shadow: 0 0.2px 0 0.25px #d5d5d5;
+}
+
+.search-button:focus {
+  border-color: transparent;
+  box-shadow: 0px 0px 0 1px #4285f4;
+  outline: none;
+}
+
+#search {
+  margin-right: 0.125rem;
+}
+
+#lucky {
+  margin-left: 0.125rem;
+}
+/*search | lucky buttons*/
+
+a.footer-link {
+  color: #505050;
+}
 
 @media only screen and (max-width: 380px) {
   #company-nav,
