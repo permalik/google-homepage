@@ -19,3 +19,4 @@ Google Homepage From Scratch
 18. Set font (family, size and color) and text decoration (none) for all text, finished assigning classes and ids
 19. Positioned top navigation, styled 'sign-in' button and declared 'strong {font-weight: bold;}'
 20. Changed 'anchor hover' to 'underline' (apart from 'sign-in'), set 'sign-in cursor' to 'default', adjusted 'waffle icon' opacity in both static and hover states and adjusted hover opacity for top nav links: about, store, gmail and images
+21. Centered, removed 'anchor wrapper' from, and switched 'pointer' to 'default' on 'Kooler' logo (PNG). Positioned and styled all 'search box' elements.
