@@ -1,25 +1,84 @@
 :root {
-    font-size: 16px;
+  font-size: 16px;
+}
+
+strong {
+    font-weight: bolder;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    font-size: .8125rem;
+  font-family: "Arial", sans-serif;
+  font-size: 0.8125rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a.nav-link {
-    color: #434343;
+  color: #434343;
 }
 
 a.footer-link {
-    color: #505050;
+  color: #505050;
 }
 
 .search-buttons {
-    font-size: .875rem;
-    color: #434343;
+  font-size: 0.875rem;
+  color: #434343;
+}
+
+/*position top nav*/
+.nav-bar {
+  position: relative;
+  width: 100%;
+}
+
+#company-nav {
+  position: absolute;
+  margin: 1.5rem 0 0 0.75rem;
+}
+
+#company-nav > * {
+  padding-left: 0.9375rem;
+}
+
+#waffle {
+  width: 1rem;
+  height: 1rem;
+}
+
+#user-nav {
+    float: right;
+    display: flex;
+    margin: 1.5rem .75rem 0 0;
+}
+
+#gmail {
+    margin-right: 0.9375rem;
+}
+
+#images {
+    margin-right: 1.3rem;
+}
+
+#sign-in {
+    margin-left: 1.3rem;
+}
+
+/*position top nav*/
+
+/*style 'sign in button'*/
+#sign-in {
+    background: #4285F4;
+    color: #fff;
+    padding: .47rem .65rem;
+    border-radius: 2px;
+}
+/*style 'sign in button'*/
+
+@media only screen and (max-width: 380px) {
+    .nav-bar {
+        display: none;
+    }
 }
