@@ -21,3 +21,6 @@ Google Homepage From Scratch
 20. Changed 'anchor hover' to 'underline' (apart from 'sign-in'), set 'sign-in cursor' to 'default', adjusted 'waffle icon' opacity in both static and hover states and adjusted hover opacity for top nav links: about, store, gmail and images
 21. Centered, removed 'anchor wrapper' from, and switched 'pointer' to 'default' on 'Kooler' logo (PNG). Positioned and styled all 'search box' elements.
 22. Styled and positioned 'search/lucky' buttons.
+23. Created 'scripts.js' file in 'google-homepage' directory. Added JavaScript 'onmousedown/onmouseup' events to add functionality to 'sign-in' button.
+24. Positioned footer responsively for all viewports and styled appropriately.
+25. Project complete.

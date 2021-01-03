@@ -7,7 +7,11 @@
     <title>Google Webpage</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/permalik/image/upload/q_50/v1609651431/kooler-favicon.png"
+    />
   </head>
 </html>
 <body>
@@ -27,14 +31,27 @@
             id="waffle"
           />
         </a>
-        <strong><a href="#" class="nav-link" id="sign-in">Sign in</a></strong>
+        <strong
+          ><a
+            href="#"
+            onmousedown="darkBlue()"
+            onmouseup="lightBlue()"
+            class="nav-link"
+            id="sign-in"
+            >Sign in</a
+          ></strong
+        >
       </div>
     </nav>
   </header>
   <main>
     <div id="logo-container">
       <a href="#">
-        <img src="images/kooler-logo.png" alt="Kooler logo" id="kooler" />
+        <img
+          src="https://res.cloudinary.com/permalik/image/upload/q_50/v1609651325/kooler-logo.png"
+          alt="Kooler logo"
+          id="kooler"
+        />
       </a>
     </div>
     <div id="search-box">
@@ -42,7 +59,7 @@
         <input type="text" name="search" class="search-tool" id="box" />
         <span id="mag-container">
           <img
-            src="images/mag-glass.svg"
+            src="https://res.cloudinary.com/permalik/image/upload/q_50/v1609564792/magnifying-glass.svg"
             alt="magnifying glass"
             class="search-tool"
             id="mag"
@@ -66,11 +83,16 @@
     </div>
   </main>
   <footer>
-    <a href="#" class="footer-link" id="advertising">Advertising</a>
-    <a href="#" class="footer-link" id="business">Business</a>
-    <a href="#" class="footer-link" id="how">How Search Works</a>
-    <a href="#" class="footer-link" id="privacy">Privacy</a>
-    <a href="#" class="footer-link" id="terms">Terms</a>
-    <a href="#" class="footer-link" id="settings">Settings</a>
+    <div class="footer-div" id="personal-links">
+      <a href="#" class="footer-link" id="privacy">Privacy</a>
+      <a href="#" class="footer-link" id="terms">Terms</a>
+      <a href="#" class="footer-link" id="settings">Settings</a>
+    </div>
+    <div class="footer-div" id="professional-links">
+      <a href="#" class="footer-link" id="advertising">Advertising</a>
+      <a href="#" class="footer-link" id="business">Business</a>
+      <a href="#" class="footer-link" id="how">How Search Works</a>
+    </div>
   </footer>
+  <script src="/scripts.js"></script>
 </body>
